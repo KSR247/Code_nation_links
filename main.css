@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    
+}
+
+.background {
+    width: 100%;
+    z-index: 900;
+    background: cover;
+    animation: filter-animation 4s infinite;
+}
+
+.wrapper {
+    position: relative;
+    z-index: 1000;
+
+}
+
+.img2 {
+    background-color: black;
+    z-index: 950;
+    position: absolute;
+    width: 650px;
+    text-align: center;
+    bottom: 850px;
+    right: 550px;
+    box-shadow: 10px 10px #EEB44C;
+}
+
+.img2:hover {
+    /* background-color:red; */
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+.img2:hover {
+    filter:invert(100%)
+    
+}
+
+.twitter {
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+}
+
+.insta {
+    position: absolute;
+    left: 100px;
+    bottom: 800px;
+
+}
+
+.facebook {
+    position: absolute;
+    bottom: 800px;
+    right: 100px;  
+}
+
+.cn_logo {
+    position: absolute;
+    bottom: 200px;
+    right: 100px;
+}
+
+/* animation: filter-animation 1.5s infinite; */
+
+@keyframes filter-animation {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    
+    50% {
+      filter: hue-rotate(100deg);
+    }
+    
+    100% {
+      filter: hue-rotate(0deg);
+    }
+  }
