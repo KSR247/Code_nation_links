@@ -1,7 +1,7 @@
 # Code_nation_links
 Code nation link project learning
 
-View my project here: (Link)[https://ksr247.github.io/Code_nation_links/]
+View my project here: [Link](https://ksr247.github.io/Code_nation_links/)
 
 Project LINK
 
